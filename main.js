@@ -38,11 +38,11 @@ const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add( pointLight, ambientLight)
 
 //Helpers for different things
-//show position of pointLight
-const lightHelper = new THREE.PointLightHelper(pointLight)
-//Show grid in the scene to help
-const gridHelper = new THREE.GridHelper(200, 50);
-scene.add(lightHelper, gridHelper )
+// //show position of pointLight
+// const lightHelper = new THREE.PointLightHelper(pointLight)
+// //Show grid in the scene to help
+// const gridHelper = new THREE.GridHelper(200, 50);
+// scene.add(lightHelper, gridHelper )
 
 //Enable Control of de camera by the mouse
 const controls = new OrbitControls( camera, renderer.domElement )
